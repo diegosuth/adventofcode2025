@@ -1,21 +1,10 @@
-/.DS_Store
-/planillabase
-/planillabase.cpp
-/test1
-/test12
-/test2
-/test22
-/test22alt
-/test3
-/test32
-/test4
-/test5
-/test52
-/test6
-/test7
-/test72
-/test8
-/test9
-/test9alt
-/testalt1
-/testplanilla
+#Ignora everything
+*
+#except the folders
+!*/
+#and any file with an extension
+!*.*
+.DS_Store
+#this ones I dont want to ignore
+!Makefile
+!.gitignore
